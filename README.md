@@ -3,4 +3,4 @@
 git branch --set-upstream-to=origin/24-issue 24-issue
 git pull <внешний-репозиторий> <ветка>
 git config pull.rebase false  # merge
-git config --global --no-rebase
+git config --list (видим pull.rebase=false)
